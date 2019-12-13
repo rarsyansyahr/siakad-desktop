@@ -1,0 +1,13 @@
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\bin\Debug\sistemAkademis.exe.config
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\bin\Debug\sistemAkademis.exe
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\bin\Debug\sistemAkademis.pdb
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\bin\Debug\sistemAkademis.xml
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.Login.resources
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.Resources.resources
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.vbproj.GenerateResource.Cache
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.exe
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.xml
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.pdb
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.MainMenu.resources
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.MasterMatkul.resources
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.MasterDosen.resources
