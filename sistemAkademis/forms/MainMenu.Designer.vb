@@ -24,15 +24,15 @@ Partial Class MainMenu
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.UtamaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MataKuliahMahasiswaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MataKuliahDosenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MasterDataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BantuanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataDosenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMahasiswaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMataKuliahToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BantuanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MataKuliahMahasiswaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MataKuliahDosenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -53,19 +53,24 @@ Partial Class MainMenu
         Me.UtamaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.UtamaToolStripMenuItem.Text = "Berkas"
         '
+        'MataKuliahMahasiswaToolStripMenuItem
+        '
+        Me.MataKuliahMahasiswaToolStripMenuItem.Name = "MataKuliahMahasiswaToolStripMenuItem"
+        Me.MataKuliahMahasiswaToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.MataKuliahMahasiswaToolStripMenuItem.Text = "Mata Kuliah Mahasiswa"
+        '
+        'MataKuliahDosenToolStripMenuItem
+        '
+        Me.MataKuliahDosenToolStripMenuItem.Name = "MataKuliahDosenToolStripMenuItem"
+        Me.MataKuliahDosenToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.MataKuliahDosenToolStripMenuItem.Text = "Mata Kuliah Dosen"
+        '
         'MasterDataToolStripMenuItem
         '
         Me.MasterDataToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DataDosenToolStripMenuItem, Me.DataMahasiswaToolStripMenuItem, Me.DataMataKuliahToolStripMenuItem})
         Me.MasterDataToolStripMenuItem.Name = "MasterDataToolStripMenuItem"
         Me.MasterDataToolStripMenuItem.Size = New System.Drawing.Size(82, 20)
         Me.MasterDataToolStripMenuItem.Text = "Master Data"
-        '
-        'BantuanToolStripMenuItem
-        '
-        Me.BantuanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TentangToolStripMenuItem, Me.KeluarToolStripMenuItem})
-        Me.BantuanToolStripMenuItem.Name = "BantuanToolStripMenuItem"
-        Me.BantuanToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
-        Me.BantuanToolStripMenuItem.Text = "Bantuan"
         '
         'DataDosenToolStripMenuItem
         '
@@ -85,29 +90,24 @@ Partial Class MainMenu
         Me.DataMataKuliahToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
         Me.DataMataKuliahToolStripMenuItem.Text = "Data Mata Kuliah"
         '
+        'BantuanToolStripMenuItem
+        '
+        Me.BantuanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TentangToolStripMenuItem, Me.KeluarToolStripMenuItem})
+        Me.BantuanToolStripMenuItem.Name = "BantuanToolStripMenuItem"
+        Me.BantuanToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
+        Me.BantuanToolStripMenuItem.Text = "Bantuan"
+        '
         'TentangToolStripMenuItem
         '
         Me.TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
-        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.TentangToolStripMenuItem.Text = "Tentang"
         '
         'KeluarToolStripMenuItem
         '
         Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.KeluarToolStripMenuItem.Text = "Keluar"
-        '
-        'MataKuliahMahasiswaToolStripMenuItem
-        '
-        Me.MataKuliahMahasiswaToolStripMenuItem.Name = "MataKuliahMahasiswaToolStripMenuItem"
-        Me.MataKuliahMahasiswaToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.MataKuliahMahasiswaToolStripMenuItem.Text = "Mata Kuliah Mahasiswa"
-        '
-        'MataKuliahDosenToolStripMenuItem
-        '
-        Me.MataKuliahDosenToolStripMenuItem.Name = "MataKuliahDosenToolStripMenuItem"
-        Me.MataKuliahDosenToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.MataKuliahDosenToolStripMenuItem.Text = "Mata Kuliah Dosen"
         '
         'MainMenu
         '

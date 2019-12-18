@@ -11,3 +11,5 @@ D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\
 D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.MainMenu.resources
 D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.MasterMatkul.resources
 D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.MasterDosen.resources
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.vbprojResolveAssemblyReference.cache
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.masterMahasiswa.resources

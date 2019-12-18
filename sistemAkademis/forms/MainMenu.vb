@@ -17,4 +17,16 @@
         dosen.MdiParent = Me
         dosen.Show()
     End Sub
+
+    Private Sub DataMahasiswaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataMahasiswaToolStripMenuItem.Click
+        Dim mahasiswa = New masterMahasiswa()
+        mahasiswa.MdiParent = Me
+        mahasiswa.Show()
+    End Sub
+
+    Private Sub DataMataKuliahToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataMataKuliahToolStripMenuItem.Click
+        Dim matkul = New MasterMatkul()
+        matkul.MdiParent = Me
+        matkul.Show()
+    End Sub
 End Class

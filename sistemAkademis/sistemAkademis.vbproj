@@ -126,6 +126,9 @@
     <EmbeddedResource Include="forms\MasterDosen.resx">
       <DependentUpon>MasterDosen.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\MasterMahasiswa.resx">
+      <DependentUpon>MasterMahasiswa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\MasterMatkul.resx">
       <DependentUpon>MasterMatkul.vb</DependentUpon>
     </EmbeddedResource>

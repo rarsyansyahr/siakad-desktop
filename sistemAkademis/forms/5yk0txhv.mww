@@ -1,0 +1,34 @@
+﻿Imports System.Data.SqlClient
+
+Public Class masterMahasiswa
+
+    Private fungsi As New Fungsi()
+    Private table As DataTable
+    Private adapter As SqlDataAdapter
+    Private sql As String
+
+    Private Sub Read(ByRef sql As String)
+        Me.adapter = fungsi.readSql(Sql)
+        Me.table = New DataTable
+        Me.adapter.Fill(table)
+        Me.dgData.DataSource = Me.table
+    End Sub
+
+    Private Sub ReadAll()
+        Me.sql = "select * from mahasiswa order by nim"
+        Me.Read(Me.sql)
+    End Sub
+
+    Private Sub Search()
+        Me.sql = "select * from mahasiswa order by nim"
+        Me.Read(Me.sql)
+    End Sub
+
+    Private Sub Create()
+        Me.sql = "insert into mahasiswa (nim, nama, alamat) values('" & Me.txtNim.Text & "')"
+    End Sub
+
+    Private Sub masterMahasiswa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
