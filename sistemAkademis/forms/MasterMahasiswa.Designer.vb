@@ -22,6 +22,7 @@ Partial Class masterMahasiswa
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.btnCari = New System.Windows.Forms.Button()
         Me.txtPencarian = New System.Windows.Forms.TextBox()
@@ -39,10 +40,13 @@ Partial Class masterMahasiswa
         Me.txtNim = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.errProvider = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.GroupBox3.SuspendLayout()
         CType(Me.dgData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox3
@@ -51,16 +55,16 @@ Partial Class masterMahasiswa
         Me.GroupBox3.Controls.Add(Me.txtPencarian)
         Me.GroupBox3.Controls.Add(Me.Label3)
         Me.GroupBox3.Controls.Add(Me.dgData)
-        Me.GroupBox3.Location = New System.Drawing.Point(13, 161)
+        Me.GroupBox3.Location = New System.Drawing.Point(13, 197)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(465, 193)
+        Me.GroupBox3.Size = New System.Drawing.Size(442, 193)
         Me.GroupBox3.TabIndex = 9
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Data"
         '
         'btnCari
         '
-        Me.btnCari.Location = New System.Drawing.Point(385, 26)
+        Me.btnCari.Location = New System.Drawing.Point(358, 26)
         Me.btnCari.Name = "btnCari"
         Me.btnCari.Size = New System.Drawing.Size(57, 23)
         Me.btnCari.TabIndex = 3
@@ -71,7 +75,7 @@ Partial Class masterMahasiswa
         '
         Me.txtPencarian.Location = New System.Drawing.Point(79, 28)
         Me.txtPencarian.Name = "txtPencarian"
-        Me.txtPencarian.Size = New System.Drawing.Size(300, 20)
+        Me.txtPencarian.Size = New System.Drawing.Size(273, 20)
         Me.txtPencarian.TabIndex = 2
         '
         'Label3
@@ -88,7 +92,7 @@ Partial Class masterMahasiswa
         Me.dgData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgData.Location = New System.Drawing.Point(6, 60)
         Me.dgData.Name = "dgData"
-        Me.dgData.Size = New System.Drawing.Size(453, 127)
+        Me.dgData.Size = New System.Drawing.Size(430, 127)
         Me.dgData.TabIndex = 0
         '
         'GroupBox2
@@ -97,48 +101,60 @@ Partial Class masterMahasiswa
         Me.GroupBox2.Controls.Add(Me.btnEdit)
         Me.GroupBox2.Controls.Add(Me.btnSimpan)
         Me.GroupBox2.Controls.Add(Me.btnBaru)
-        Me.GroupBox2.Location = New System.Drawing.Point(266, 27)
+        Me.GroupBox2.Location = New System.Drawing.Point(266, 63)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(212, 128)
+        Me.GroupBox2.Size = New System.Drawing.Size(189, 128)
         Me.GroupBox2.TabIndex = 8
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Aksi"
         '
         'btnHapus
         '
-        Me.btnHapus.Location = New System.Drawing.Point(112, 87)
+        Me.btnHapus.BackColor = System.Drawing.Color.IndianRed
+        Me.btnHapus.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnHapus.ForeColor = System.Drawing.Color.White
+        Me.btnHapus.Location = New System.Drawing.Point(96, 72)
         Me.btnHapus.Name = "btnHapus"
-        Me.btnHapus.Size = New System.Drawing.Size(75, 23)
+        Me.btnHapus.Size = New System.Drawing.Size(75, 42)
         Me.btnHapus.TabIndex = 3
         Me.btnHapus.Text = "Hapus"
-        Me.btnHapus.UseVisualStyleBackColor = True
+        Me.btnHapus.UseVisualStyleBackColor = False
         '
         'btnEdit
         '
-        Me.btnEdit.Location = New System.Drawing.Point(112, 28)
+        Me.btnEdit.BackColor = System.Drawing.Color.Orange
+        Me.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnEdit.ForeColor = System.Drawing.Color.White
+        Me.btnEdit.Location = New System.Drawing.Point(96, 24)
         Me.btnEdit.Name = "btnEdit"
-        Me.btnEdit.Size = New System.Drawing.Size(75, 23)
+        Me.btnEdit.Size = New System.Drawing.Size(75, 42)
         Me.btnEdit.TabIndex = 2
         Me.btnEdit.Text = "Edit"
-        Me.btnEdit.UseVisualStyleBackColor = True
+        Me.btnEdit.UseVisualStyleBackColor = False
         '
         'btnSimpan
         '
-        Me.btnSimpan.Location = New System.Drawing.Point(20, 87)
+        Me.btnSimpan.BackColor = System.Drawing.Color.MediumSlateBlue
+        Me.btnSimpan.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnSimpan.ForeColor = System.Drawing.Color.White
+        Me.btnSimpan.Location = New System.Drawing.Point(15, 72)
         Me.btnSimpan.Name = "btnSimpan"
-        Me.btnSimpan.Size = New System.Drawing.Size(75, 23)
+        Me.btnSimpan.Size = New System.Drawing.Size(75, 42)
         Me.btnSimpan.TabIndex = 1
         Me.btnSimpan.Text = "Simpan"
-        Me.btnSimpan.UseVisualStyleBackColor = True
+        Me.btnSimpan.UseVisualStyleBackColor = False
         '
         'btnBaru
         '
-        Me.btnBaru.Location = New System.Drawing.Point(20, 28)
+        Me.btnBaru.BackColor = System.Drawing.Color.Gray
+        Me.btnBaru.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnBaru.ForeColor = System.Drawing.Color.White
+        Me.btnBaru.Location = New System.Drawing.Point(15, 24)
         Me.btnBaru.Name = "btnBaru"
-        Me.btnBaru.Size = New System.Drawing.Size(75, 23)
+        Me.btnBaru.Size = New System.Drawing.Size(75, 42)
         Me.btnBaru.TabIndex = 0
         Me.btnBaru.Text = "Baru"
-        Me.btnBaru.UseVisualStyleBackColor = True
+        Me.btnBaru.UseVisualStyleBackColor = False
         '
         'GroupBox1
         '
@@ -148,7 +164,7 @@ Partial Class masterMahasiswa
         Me.GroupBox1.Controls.Add(Me.txtNim)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 26)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 62)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(248, 129)
         Me.GroupBox1.TabIndex = 7
@@ -166,7 +182,7 @@ Partial Class masterMahasiswa
         '
         'txtAlamat
         '
-        Me.txtAlamat.Location = New System.Drawing.Point(95, 73)
+        Me.txtAlamat.Location = New System.Drawing.Point(85, 73)
         Me.txtAlamat.Multiline = True
         Me.txtAlamat.Name = "txtAlamat"
         Me.txtAlamat.Size = New System.Drawing.Size(139, 38)
@@ -174,14 +190,14 @@ Partial Class masterMahasiswa
         '
         'txtNama
         '
-        Me.txtNama.Location = New System.Drawing.Point(95, 47)
+        Me.txtNama.Location = New System.Drawing.Point(85, 47)
         Me.txtNama.Name = "txtNama"
         Me.txtNama.Size = New System.Drawing.Size(139, 20)
         Me.txtNama.TabIndex = 3
         '
         'txtNim
         '
-        Me.txtNim.Location = New System.Drawing.Point(95, 21)
+        Me.txtNim.Location = New System.Drawing.Point(85, 21)
         Me.txtNim.Name = "txtNim"
         Me.txtNim.Size = New System.Drawing.Size(100, 20)
         Me.txtNim.TabIndex = 2
@@ -204,14 +220,35 @@ Partial Class masterMahasiswa
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "NIM"
         '
+        'Label5
+        '
+        Me.Label5.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(10, 9)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(446, 41)
+        Me.Label5.TabIndex = 10
+        Me.Label5.Text = "Data Mahasiswa"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'errProvider
+        '
+        Me.errProvider.ContainerControl = Me
+        '
         'masterMahasiswa
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(495, 365)
+        Me.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ClientSize = New System.Drawing.Size(468, 401)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "masterMahasiswa"
         Me.Text = "Master Data Mahasiswa"
         Me.GroupBox3.ResumeLayout(False)
@@ -220,6 +257,7 @@ Partial Class masterMahasiswa
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -240,4 +278,6 @@ Partial Class masterMahasiswa
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents txtAlamat As System.Windows.Forms.TextBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents errProvider As System.Windows.Forms.ErrorProvider
 End Class
