@@ -71,6 +71,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="forms\KartuRencanaMengajar.Designer.vb">
+      <DependentUpon>KartuRencanaMengajar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\KartuRencanaMengajar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\KartuRencanaStudi.Designer.vb">
+      <DependentUpon>KartuRencanaStudi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\KartuRencanaStudi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\KelolaKRS.Designer.vb">
+      <DependentUpon>KelolaKRS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\KelolaKRS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Tentang.Designer.vb">
+      <DependentUpon>Tentang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Tentang.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -120,6 +144,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="forms\KartuRencanaMengajar.resx">
+      <DependentUpon>KartuRencanaMengajar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\KartuRencanaStudi.resx">
+      <DependentUpon>KartuRencanaStudi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\KelolaKRS.resx">
+      <DependentUpon>KelolaKRS.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\MasterMatkul.resx">
       <DependentUpon>MasterMatkul.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Tentang.resx">
+      <DependentUpon>Tentang.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>

@@ -135,7 +135,7 @@ Partial Class MasterMatkul
         Me.btnEdit.BackColor = System.Drawing.Color.Orange
         Me.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnEdit.ForeColor = System.Drawing.Color.White
-        Me.btnEdit.Location = New System.Drawing.Point(96, 24)
+        Me.btnEdit.Location = New System.Drawing.Point(95, 23)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 42)
         Me.btnEdit.TabIndex = 2
@@ -240,9 +240,10 @@ Partial Class MasterMatkul
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "MasterMatkul"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Master Mata Kuliah"
+        Me.Text = "Master Data Mata Kuliah"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()

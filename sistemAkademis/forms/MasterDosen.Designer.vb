@@ -229,9 +229,9 @@ Partial Class MasterDosen
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(10, 24)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(31, 13)
+        Me.Label1.Size = New System.Drawing.Size(34, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "NDN"
+        Me.Label1.Text = "NIDN"
         '
         'errProvider
         '
@@ -249,6 +249,7 @@ Partial Class MasterDosen
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "MasterDosen"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Master Data Dosen"
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()

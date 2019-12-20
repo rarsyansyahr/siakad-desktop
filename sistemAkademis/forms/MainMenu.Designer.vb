@@ -30,7 +30,7 @@ Partial Class MainMenu
         Me.DataDosenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMahasiswaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMataKuliahToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BantuanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnNama = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
@@ -39,7 +39,7 @@ Partial Class MainMenu
         'MenuStrip1
         '
         Me.MenuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UtamaToolStripMenuItem, Me.MasterDataToolStripMenuItem, Me.BantuanToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UtamaToolStripMenuItem, Me.MasterDataToolStripMenuItem, Me.mnNama})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(510, 24)
@@ -56,14 +56,14 @@ Partial Class MainMenu
         'MataKuliahMahasiswaToolStripMenuItem
         '
         Me.MataKuliahMahasiswaToolStripMenuItem.Name = "MataKuliahMahasiswaToolStripMenuItem"
-        Me.MataKuliahMahasiswaToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.MataKuliahMahasiswaToolStripMenuItem.Text = "Mata Kuliah Mahasiswa"
+        Me.MataKuliahMahasiswaToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.MataKuliahMahasiswaToolStripMenuItem.Text = "Kartu Rencana Studi"
         '
         'MataKuliahDosenToolStripMenuItem
         '
         Me.MataKuliahDosenToolStripMenuItem.Name = "MataKuliahDosenToolStripMenuItem"
-        Me.MataKuliahDosenToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.MataKuliahDosenToolStripMenuItem.Text = "Mata Kuliah Dosen"
+        Me.MataKuliahDosenToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.MataKuliahDosenToolStripMenuItem.Text = "Kartu Rencana Mengajar"
         '
         'MasterDataToolStripMenuItem
         '
@@ -90,23 +90,23 @@ Partial Class MainMenu
         Me.DataMataKuliahToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
         Me.DataMataKuliahToolStripMenuItem.Text = "Data Mata Kuliah"
         '
-        'BantuanToolStripMenuItem
+        'mnNama
         '
-        Me.BantuanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TentangToolStripMenuItem, Me.KeluarToolStripMenuItem})
-        Me.BantuanToolStripMenuItem.Name = "BantuanToolStripMenuItem"
-        Me.BantuanToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
-        Me.BantuanToolStripMenuItem.Text = "Bantuan"
+        Me.mnNama.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TentangToolStripMenuItem, Me.KeluarToolStripMenuItem})
+        Me.mnNama.Name = "mnNama"
+        Me.mnNama.Size = New System.Drawing.Size(63, 20)
+        Me.mnNama.Text = "Bantuan"
         '
         'TentangToolStripMenuItem
         '
         Me.TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
-        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.TentangToolStripMenuItem.Text = "Tentang"
         '
         'KeluarToolStripMenuItem
         '
         Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.KeluarToolStripMenuItem.Text = "Keluar"
         '
         'MainMenu
@@ -137,7 +137,7 @@ Partial Class MainMenu
     Friend WithEvents DataDosenToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DataMahasiswaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DataMataKuliahToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents BantuanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents mnNama As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TentangToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents KeluarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MataKuliahMahasiswaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
