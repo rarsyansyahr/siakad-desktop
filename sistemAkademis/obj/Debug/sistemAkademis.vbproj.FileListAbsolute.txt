@@ -17,3 +17,4 @@ D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\
 D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.KartuRencanaMengajar.resources
 D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.KartuRencanaStudi.resources
 D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.KelolaKRS.resources
+D:\Universitas Amikom Purwokerto\Materi Kuliah\Semester 3\Pemrogaman .NET\Tugas\sistemAkademis\sistemAkademis\sistemAkademis\obj\Debug\sistemAkademis.KelolaKRM.resources

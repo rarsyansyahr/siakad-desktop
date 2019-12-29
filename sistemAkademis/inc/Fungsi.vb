@@ -62,7 +62,7 @@ Public Class Fungsi
         Return conf
     End Function
 
-    Public Sub setComboBox(sql As String, idx As String, val As String, cbx As ComboBox)
+    Public Overloads Sub setList(sql As String, idx As String, val As String, cbx As ComboBox)
         Dim dict = New Dictionary(Of Byte, String)
         Me.reader = Me.eReader(sql)
 
@@ -79,6 +79,23 @@ Public Class Fungsi
         End If
     End Sub
 
+    Public Overloads Sub setList(sql As String, idx As String, val As String, ckl As CheckedListBox)
+        Dim dict = New Dictionary(Of Byte, String)
+        Me.reader = Me.eReader(sql)
+
+        If Me.reader.HasRows Then
+            While Me.reader.Read()
+                Dim x As Byte = Byte.Parse(Me.reader.Item(idx).ToString())
+                Dim y As String = Me.reader.Item(val).ToString()
+                dict.Add(x, y)
+            End While
+
+            ckl.DataSource = New BindingSource(dict, Nothing)
+            ckl.DisplayMember = "Value"
+            ckl.ValueMember = "Key"
+        End If
+    End Sub
+
     Public Function Validation(input As Control, err As ErrorProvider, message As String) As Boolean
         Dim status As Boolean
 
@@ -90,6 +107,18 @@ Public Class Fungsi
         End If
 
         Return status
+    End Function
+
+    Public Function FindIn(input As Dictionary(Of Byte, String), search As String, number As Boolean) As Boolean
+        For Each Pair As KeyValuePair(Of Byte, String) In input
+            If number Then
+                Dim search2 As Byte = Byte.Parse(Pair.Value)
+                If Pair.Key = search Then Return True 'Pair.Value
+            Else
+                If Pair.Value = search Then Return True 'Pair.Key
+            End If
+        Next
+        Throw New KeyNotFoundException("Input is unconvertable.")
     End Function
 
 End Class

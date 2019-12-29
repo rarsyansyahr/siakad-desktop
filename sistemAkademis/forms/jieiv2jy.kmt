@@ -29,7 +29,7 @@ Partial Class KelolaKRS
         Me.cklMatkul = New System.Windows.Forms.CheckedListBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.btnSimpan = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -102,18 +102,18 @@ Partial Class KelolaKRS
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Mata Kuliah yang Dapat Diambil"
         '
-        'btnSimpan
+        'Button1
         '
-        Me.btnSimpan.BackColor = System.Drawing.Color.RoyalBlue
-        Me.btnSimpan.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnSimpan.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSimpan.ForeColor = System.Drawing.Color.White
-        Me.btnSimpan.Location = New System.Drawing.Point(23, 305)
-        Me.btnSimpan.Name = "btnSimpan"
-        Me.btnSimpan.Size = New System.Drawing.Size(316, 31)
-        Me.btnSimpan.TabIndex = 7
-        Me.btnSimpan.Text = "Simpan Rencana Studi"
-        Me.btnSimpan.UseVisualStyleBackColor = False
+        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(23, 305)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(316, 31)
+        Me.Button1.TabIndex = 7
+        Me.Button1.Text = "Simpan Rencana Studi"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -125,7 +125,7 @@ Partial Class KelolaKRS
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(336, 41)
         Me.Label5.TabIndex = 20
-        Me.Label5.Text = "Kelola Rencana Studi"
+        Me.Label5.Text = "Kartu Rencana Studi"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'KelolaKRS
@@ -134,7 +134,7 @@ Partial Class KelolaKRS
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(360, 345)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.btnSimpan)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.MaximizeBox = False
@@ -155,6 +155,6 @@ Partial Class KelolaKRS
     Friend WithEvents cklMatkul As System.Windows.Forms.CheckedListBox
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-    Friend WithEvents btnSimpan As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

@@ -22,24 +22,24 @@ Partial Class KartuRencanaStudi
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.gdMatkul = New System.Windows.Forms.DataGridView()
+        Me.dgData = New System.Windows.Forms.DataGridView()
         Me.cmbMahasiswa = New System.Windows.Forms.ComboBox()
         Me.btnKelola = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        CType(Me.gdMatkul, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
-        'gdMatkul
+        'dgData
         '
-        Me.gdMatkul.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.gdMatkul.Location = New System.Drawing.Point(10, 22)
-        Me.gdMatkul.Name = "gdMatkul"
-        Me.gdMatkul.Size = New System.Drawing.Size(349, 116)
-        Me.gdMatkul.TabIndex = 0
+        Me.dgData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgData.Location = New System.Drawing.Point(10, 22)
+        Me.dgData.Name = "dgData"
+        Me.dgData.Size = New System.Drawing.Size(349, 116)
+        Me.dgData.TabIndex = 0
         '
         'cmbMahasiswa
         '
@@ -58,7 +58,7 @@ Partial Class KartuRencanaStudi
         Me.btnKelola.Name = "btnKelola"
         Me.btnKelola.Size = New System.Drawing.Size(343, 33)
         Me.btnKelola.TabIndex = 3
-        Me.btnKelola.Text = "Kelola Rubah Rencana Studi"
+        Me.btnKelola.Text = "Kelola Rencana Studi"
         Me.btnKelola.UseVisualStyleBackColor = False
         '
         'GroupBox1
@@ -74,7 +74,7 @@ Partial Class KartuRencanaStudi
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.gdMatkul)
+        Me.GroupBox2.Controls.Add(Me.dgData)
         Me.GroupBox2.Location = New System.Drawing.Point(15, 179)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(365, 149)
@@ -108,13 +108,13 @@ Partial Class KartuRencanaStudi
         Me.Name = "KartuRencanaStudi"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Kartu Rencana Studi"
-        CType(Me.gdMatkul, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents gdMatkul As System.Windows.Forms.DataGridView
+    Friend WithEvents dgData As System.Windows.Forms.DataGridView
     Friend WithEvents cmbMahasiswa As System.Windows.Forms.ComboBox
     Friend WithEvents btnKelola As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
