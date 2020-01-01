@@ -97,7 +97,7 @@ Partial Class Tentang
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(61, 13)
         Me.Label12.TabIndex = 35
-        Me.Label12.Text = "18.11.0153"
+        Me.Label12.Text = "18.11.0015"
         '
         'Label13
         '
@@ -152,7 +152,7 @@ Partial Class Tentang
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(61, 13)
         Me.Label6.TabIndex = 44
-        Me.Label6.Text = "18.11.0153"
+        Me.Label6.Text = "18.11.0097"
         '
         'Label7
         '
