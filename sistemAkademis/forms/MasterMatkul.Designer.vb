@@ -244,7 +244,6 @@ Partial Class MasterMatkul
         Me.Name = "MasterMatkul"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Master Data Mata Kuliah"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         CType(Me.dgData, System.ComponentModel.ISupportInitialize).EndInit()

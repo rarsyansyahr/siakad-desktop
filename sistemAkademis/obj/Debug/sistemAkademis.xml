@@ -15,6 +15,14 @@ sistemAkademis
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:sistemAkademis.My.Resources.Resources.agung_100px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistemAkademis.My.Resources.Resources.juki_100px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:sistemAkademis.My.Resources.Resources.logo_amikom">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -32,6 +40,10 @@ sistemAkademis
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:sistemAkademis.My.Resources.Resources.logo_amikom1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistemAkademis.My.Resources.Resources.rizky_100px">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
